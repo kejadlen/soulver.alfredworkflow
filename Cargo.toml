@@ -1,0 +1,10 @@
+[package]
+name = "soulver"
+version = "0.1.0"
+authors = ["Alpha Chen <alpha@kejadlen.dev>"]
+edition = "2018"
+
+[dependencies]
+alphred = "0.1"
+reqwest = { version = "0.10", features = ["blocking"] }
+tokio = { version = "0.2", features = ["full"] }
